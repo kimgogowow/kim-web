@@ -1,0 +1,15 @@
+.containter{
+    justify-content: center;
+}
+
+.content{
+    margin:100px;
+    background-color:beige;
+    text-align: center;
+    font-family:headfont;
+    font-size: 40px;
+}
+
+.content img{
+    width:300px;
+}

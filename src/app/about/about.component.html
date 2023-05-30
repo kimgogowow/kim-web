@@ -1,0 +1,20 @@
+<div class="container">
+    <div class="content" [@fadeIn]>
+        <div>
+            <a (click)="toggleIcon('instagram')">Instagram:</a>
+            <br>
+            <img class="icon" *ngIf="showIcon === 'instagram'" src="/assets/ins.png">
+        </div>
+        <hr>
+        <div>
+            <a (click)="toggleIcon('whatsapp')" >Whatsapp:</a>
+            <br>
+            <img class="icon" *ngIf="showIcon === 'whatsapp'" src="/assets/IMG_E5EBA12273EF-1.jpeg">
+        </div>
+        <hr>
+        <div>
+            <a (click)="toggleIcon('email')">Email:</a>
+            <h3 class="icon" *ngIf="showIcon === 'email'" >kimwu9419@gmail.com</h3>
+        </div>
+    </div>
+</div>
