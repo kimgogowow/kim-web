@@ -1,6 +1,13 @@
-div{
+.container div{
     text-align: center;
-    margin: 20%;
     font-family:headfont;
     background-color: beige;
+}
+.container img{
+    margin-left:50%;
+}
+.container{
+    height: 500px;
+    background-image: url("https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif");
+    background-size: cover;
 }

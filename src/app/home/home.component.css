@@ -1,30 +1,16 @@
-.name_a {
-    font-weight: 700px;
-    color: #FFFF00;
-
-}
-
-.co_a {
-    font-weight: 700px;
-    color: #00FFFF;
-}
-
-.tech_a {
-    font-weight: 700px;
-    color: aqua;
+.name_a, .co_a, .tech_a {
+    font-weight:bolder;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
 }
 
 #content {
     margin: 5%;
     padding: 10%;
-    background-color: #666666;
+    background-color:beige;
     border-radius: 20px;
     color: black;
     font-family: homefont;
-        font-size: 20px;
-        font-weight: 500;
-
-
+    background-image: url("https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif");
 }
 
 .topic {
@@ -39,4 +25,9 @@
     font-family: 'homeFont';
     src: url('/assets/Queensides-3z7Ey.ttf');
     font-weight: bold;
+}
+
+#ending{
+    margin-left: 80%;
+    height:80px;
 }

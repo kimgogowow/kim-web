@@ -1,15 +1,25 @@
-.containter{
-    justify-content: center;
+.container{
+    margin-top: 0px;
+    background-image: url("https://i.pinimg.com/originals/6c/d7/4b/6cd74bae87b2025e3d671a23dbf4b3ca.gif");
 }
 
+.container img{
+    border-radius: 30px;
+}
 .content{
-    margin:100px;
+    margin-top:100px;
+    margin-right:100px;
+    margin-left:100px;
+    margin-bottom:10px;
     background-color:beige;
     text-align: center;
     font-family:headfont;
     font-size: 40px;
 }
-
+.content h3{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 100%;
+}
 .content img{
     width:300px;
 }
